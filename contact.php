@@ -12,12 +12,14 @@
 		print_nav();
 	?>
 
-	<form method="post" action=" email_control() ">
-		<input type="text" name="" placeholder="Asunto del mensaje">
-		<textarea placeholder="Escriba su mensaje aquí..."></textarea>
-		<input type="text" name="" placeholder="Nombre y apellido">
-		<input type="text" name="" placeholder="Correo">
-		<input type="submit" name="" value="Enviar">
+	<form method="post"  action="functions.php" >
+		<input type="text" name="subject"	placeholder="Asunto del mensaje">
+		<input type="text" name="name"	 	placeholder="Nombre y apellido">
+		<input type="text" name="email"		placeholder="Correo">
+		
+		<textarea name="message" placeholder="Escriba su mensaje aquí..."></textarea>
+
+		<input type="submit" name="btn_contact" value="Enviar">
 	</form>
 </body>
 </html>
