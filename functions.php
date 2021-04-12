@@ -15,7 +15,9 @@
 		echo 
 		'<title>' . $title . '</title>
 		<meta charset="utf-8">
-		<link rel="icon" href="projects/udo/img/udo.png">';
+		<link rel="icon" href="projects/udo/img/udo.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">';
 	}
 
 	function formats(){		
