@@ -6,7 +6,7 @@
 			<li><a href="formats.php">Formatos</a></li>
 			<li><a href="">Programas</a></li>
 			<li><a href="degree.php">Grado</a></li>
-			<li><a href="">Contacto</a></li>
+			<li><a href="contact.php">Contacto</a></li>
 			<li><a href="../../index.html">Sobre la página</a></li>
 		</ul>';
 	}
