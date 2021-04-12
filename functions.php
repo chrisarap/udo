@@ -42,4 +42,8 @@
 		);
 		return $formats;
 	}
+
+	function email_control(){
+		print "work";
+	}
 ?>
