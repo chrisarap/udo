@@ -43,18 +43,4 @@
 		return $formats;
 	}
 
-	
-
-	if (isset($_POST["btn_contact"])) {
-		$name = 	$_POST["name"];	
-		$subject = 	$_POST["subject"];
-		$message =	$_POST["message"];
-		$email = 	$_POST["email"];
-
-		email_control($name, $subject, $message, $email);
-	}
-
-	function email_control($name, $subject, $message, $email){
-		echo $name . " " . $subject . " " . $message . " " . $email;
-	}
 ?>
