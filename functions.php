@@ -1,7 +1,7 @@
 <?php
 	function print_nav(){
 		echo 
-		'<ul>
+		'<ul class="nav">
 			<li><a href="index.php">Principal</a></li>
 			<li><a href="formats.php">Formatos</a></li>
 			<li><a href="">Programas</a></li>

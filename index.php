@@ -8,20 +8,21 @@
 </head>
 <body>
 
-	<h1>Comisión de Trabajos de Grado</h1>
-	<h2>Departamento de Petróleo</h2>
-	<h3>Just testing</h3>
-	
 	<nav>	
 		<?php 
 			print_nav();
 		?>	
 	</nav>
-	
-	<img class="img" src="img/udo.png">
-	<img class="img" src="img/petroleo.png">
 
-	<form action="connection.php" method="post">
+	<div class="logos">
+		<img class="img" src="img/udo.png">
+			<h1>Comisión de Trabajos de Grado</h1>
+		<img class="img" src="img/petroleo.png">
+	</div>
+	
+	<h2>Departamento de Petróleo</h2>
+	
+	<form class="form" action="connection.php" method="post">
 		<input type="number" name="ci" placeholder="Número de cédula">
 		<input type="number" name="pip" placeholder="PIP">		
 		<input type="submit" value="Enviar">
