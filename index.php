@@ -18,6 +18,9 @@
 		?>	
 	</nav>
 	
+	<img class="img" src="img/udo.png">
+	<img class="img" src="img/petroleo.png">
+
 	<form action="connection.php" method="post">
 		<input type="number" name="ci" placeholder="Número de cédula">
 		<input type="number" name="pip" placeholder="PIP">		
