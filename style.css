@@ -92,3 +92,8 @@ input, textarea {
 	background: green;
 
 }
+
+.degree {
+	list-style: none;
+	padding: 0;
+}
