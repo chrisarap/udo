@@ -66,3 +66,29 @@ input, textarea {
 	border: none;
 	font-family: ubuntu;
 }
+
+.formats {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.formats  a {
+	text-decoration: none;
+		color: white;
+		
+		background: red;
+		width: 150px;
+		height: 100px;
+		margin: 10px;
+		border-radius: 5px;
+}
+
+.formats a:hover{
+	background: green;
+
+}

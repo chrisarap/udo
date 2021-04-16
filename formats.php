@@ -13,10 +13,10 @@
 	 ?>
 </nav>
 
-<ul>
+<ul class="formats">
 	<?php 
 		foreach (formats() as $key => $value) {
-			echo '<a href="' . $value .'" target="_blank"> <li>' . $key . '</li></a>';
+			echo '<a href="' . $value .'" target="_blank"><li>' . $key . '</li></a>';
 		}
 	?>	
 </ul>
