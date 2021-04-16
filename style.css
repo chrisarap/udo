@@ -2,7 +2,9 @@ body{
 	font-family: 'ubuntu';
 	text-align: center;
 	background: #121212;	
-	color: #FFFFFF
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
 }
 
 .img {
@@ -34,12 +36,33 @@ body{
 	list-style: none;
 	padding: 0;
 	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 10vh;
+	background: green;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 0;
 }
 
-.nav li {
-	padding: 5px;
+.nav a {
+	color: white;
+	text-decoration: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 120px;
 }
 
-.nav li:hover {
+.nav a:hover {
 	background: grey;
+	border-radius: 5px;
+}
+
+input, textarea {
+	border-radius: 5px;
+	border: none;
+	font-family: ubuntu;
 }

@@ -2,12 +2,11 @@
 	function print_nav(){
 		echo 
 		'<ul class="nav">
-			<li><a href="index.php">Principal</a></li>
-			<li><a href="formats.php">Formatos</a></li>
-			<li><a href="">Programas</a></li>
-			<li><a href="degree.php">Grado</a></li>
-			<li><a href="contact.php">Contacto</a></li>
-			<li><a href="../../index.html">Sobre la página</a></li>
+			<a href="index.php"><li>Principal 				</li></a>
+			<a href="formats.php"><li>Formatos 				</li></a>
+			<a href="degree.php"><li>Grado 					</li></a>
+			<a href="contact.php"><li>Contacto 				</li></a>
+			<a href="../portfolio/index.html" target="_blank"><li>Sobre la página 	</li></a>
 		</ul>';
 	}
 
