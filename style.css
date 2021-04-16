@@ -30,6 +30,14 @@ body{
 
 .form input {
 	margin: 5px;
+	width: 200px;
+	padding: 5px;
+}
+
+.form input, textarea {
+	border-radius: 5px;
+	border: none;
+	font-family: ubuntu;
 }
 
 .nav {
@@ -61,11 +69,7 @@ body{
 	border-radius: 5px;
 }
 
-input, textarea {
-	border-radius: 5px;
-	border: none;
-	font-family: ubuntu;
-}
+
 
 .formats {
 	list-style: none;
@@ -96,4 +100,19 @@ input, textarea {
 .degree {
 	list-style: none;
 	padding: 0;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.contact input, textarea {
+	margin: 5px;
+	width: 200px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
 }
