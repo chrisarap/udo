@@ -116,3 +116,36 @@ body{
 	border-radius: 5px;
 	border: none;
 }
+
+
+.box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+}
+
+.box h2 {
+	margin: 0;
+}
+.mini-box{
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+	align-items: center;
+
+}
+
+.left{
+	width: 100%;
+	font-weight: bold;
+	text-align: right;
+	margin: 5px;
+}
+
+.right {
+	width: 100%;
+	text-align: left;
+	margin: 5px;
+}

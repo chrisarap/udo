@@ -1,5 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<?php 
+		include	"functions.php";
+		print_meta("Datos del estudiante");
+	?>
+</head>
+<body>
+
 <?php 
-	
+	print_nav();
+
 	$pip = $_POST["pip"];
 	$ci = $_POST["ci"];
 	include "pass.php";
@@ -19,15 +30,44 @@
 		$approval
 	);
 
+	$session_name = array(
+		"Datos del estudiante",
+		"Datos del proyecto",
+		"Correciones",
+		"Jurado",
+		"Aprobación"
+	);
+
 	// print arrays
-	echo "--------------------------<br>";		
 	for ($i=0; $i < count($test); $i++) {		
+	echo '<div class="box">';
+		if (check($test[$i]) > 0) {
+			echo "<h2>" . $session_name[$i] .  "</h2><br>";
+		}
+		
 		foreach ($test[$i] as $key => $value) {
 			if (strlen($value) >= 1 ) {
-				echo  $key . " = " .$value ." "  . "<br>";
+				echo  
+				'<div class="mini-box">
+					<p class="left">' . $key . '</p> 
+					<p class="right">' . $value .'</p>
+				</div>';
 			}			
 		}
-		echo "--------------------------<br>";		
+	echo '</div>';
+	}
+
+	function check($arr){
+		$count = 0;
+		foreach ($arr as $key => $value) {
+			if (strlen($value) > 0) {
+				$count++;
+			}
+		}
+		return $count;
 	}
 
 ?>
+
+</body>
+</html>
