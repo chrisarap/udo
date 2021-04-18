@@ -42,4 +42,14 @@
 		return $formats;
 	}
 
+	function check($arr){
+		$count = 0;
+		foreach ($arr as $key => $value) {
+			if (strlen($value) > 0) {
+				$count++;
+			}
+		}
+		return $count;
+	}
+
 ?>
