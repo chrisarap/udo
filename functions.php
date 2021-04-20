@@ -83,7 +83,40 @@
 		return $row;
 	}
 
+	function print_oil_message($row){
+		
+		$message = "";
 
+		if ($row['FECHA_DE_ENTREGA']) {
+			$message = "Su anteproyecto está en revisión...";
+		}
+
+		if ($row["RECIBIDA_DEL_DOCENTE_2"]) {
+			$message = "Las correciones de su proyecto fueron recibidas por esta Comision el día " . $row["RECIBIDA_DEL_DOCENTE_2"] . " Por favor, pase retirando su proyecto en el horario de atención.";
+		}
+
+		if ($row["CORRECCION_ENTREGADA_AL_ESTUDIANTE"]) {
+			$message = "Su proyecto fue retirado por usted el día " . $row["CORRECCION_ENTREGADA_AL_ESTUDIANTE"] . ". Devolver a la Comisión de Petróleo, en el horario de atención, cuando haya realizado las correciones requeridas";
+		}
+
+		if ($row["CORRECCION_RECIBIDA_DEL_ESTUDIANTE"]) {
+			$message = "Su anteproyecto está en revisión...";
+		}
+
+		if ($row["APROBADO_CTG"]) {
+			$message = "Su proyecto fue aprobado por la Comisión de Petróleo el día " . $row["APROBADO_CTG"] . ". Se enviará a la Comisión Central lo más pronto posible";
+		}
+
+		if ($row["ENVIADO_A_COMISION_CENTRAL"]) {
+			$message = "Su proyecto fue enviado a Comisión Central el día " . $row["ENVIADO_A_COMISION_CENTRAL"];
+		}
+
+		if ($row["RECIBIDO_DE_COMISION_CENTRAL"]) {
+			$message = "El formato CTGIP-06 fue firmado por esta Comisión el día " . $row["RECIBIDO_DE_COMISION_CENTRAL"] . ". Retire este formato en la Comisión Central.";
+		}
+
+		echo "<h2 class='err_message'>" . $message . "</h2>";
+	}
 
 	 
 ?>
