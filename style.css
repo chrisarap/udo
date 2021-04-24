@@ -98,8 +98,13 @@ body{
 }
 
 .degree {
-	list-style: none;
-	padding: 0;
+	text-align: left;
+}
+
+.degree_box {
+	display: flex;
+	justify-content: space-around;
+	
 }
 
 .contact {
@@ -153,3 +158,5 @@ body{
 .err_message{
 	color: red;
 }
+
+

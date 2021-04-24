@@ -1,13 +1,14 @@
 <?php
 	function print_nav(){
 
+		//<a href="../portfolio/index.html" target="_blank"><li>Sobre la página 	</li></a>
+
 		echo 
 		'<ul class="nav">
 			<a href="index.php"><li>Principal 				</li></a>
 			<a href="formats.php"><li>Formatos 				</li></a>
 			<a href="degree.php"><li>Grado 					</li></a>
-			<a href="contact.php"><li>Contacto 				</li></a>
-			<a href="../portfolio/index.html" target="_blank"><li>Sobre la página 	</li></a>
+			
 		</ul>';
 	}
 
