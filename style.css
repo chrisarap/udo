@@ -5,6 +5,21 @@ body{
 	color: #FFFFFF;
 	margin: 0;
 	padding: 0;
+	width: 100%;
+}
+
+/* responsive */
+@media screen and (max-width: 450px) {
+	body {
+		background: pink;
+	}
+
+	input {
+		background: black;
+		height: 50px;
+		font-size: 20px;
+
+	}
 }
 
 .img {
@@ -158,5 +173,4 @@ body{
 .err_message{
 	color: red;
 }
-
 

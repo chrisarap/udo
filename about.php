@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php 
+	<?php
 		include "functions.php";
 		print_meta("Información sobre la página");
 	?>
