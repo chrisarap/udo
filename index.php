@@ -36,7 +36,7 @@
 		}
 		
 	?>
-	<h2>AVISO: La comisión atenderá los días Miércoles de 8:00 AM a 10:00 AM en el departamento...</h2>
-	<h3>Última actualización: 15 de Enero de 2021, 9:29 PM</h3>
+	<h2 class="message">AVISO: La comisión atenderá los días Miércoles de 8:00 AM a 10:00 AM en el departamento...</h2>
+	<h3 class="message">Última actualización: 15 de Enero de 2021, 9:29 PM</h3>
 </body>
 </html>

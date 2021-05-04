@@ -8,19 +8,7 @@ body{
 	width: 100%;
 }
 
-/* responsive */
-@media screen and (max-width: 450px) {
-	body {
-		background: pink;
-	}
 
-	input {
-		background: black;
-		height: 50px;
-		font-size: 20px;
-
-	}
-}
 
 .img {
 	width: 50px;
@@ -94,6 +82,8 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+
+
 }
 
 .formats  a {
@@ -105,6 +95,10 @@ body{
 		height: 100px;
 		margin: 10px;
 		border-radius: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.5rem;
 }
 
 .formats a:hover{
@@ -174,3 +168,25 @@ body{
 	color: red;
 }
 
+/* responsive */
+@media screen and (max-width: 450px) {
+
+
+	input {
+		height: 50px;
+		font-size: 25px;
+	}
+
+	.mini-box{
+		width: 100%;
+		border-top: solid;
+	}
+	
+	.degree_box{
+		flex-direction: column;
+	}
+
+	.message, .err_message{
+		padding: 10px;
+	}
+}
