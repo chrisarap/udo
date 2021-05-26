@@ -8,7 +8,7 @@
 			<a href="index.php"><li>Principal 				</li></a>
 			<a href="formats.php"><li>Formatos 				</li></a>
 			<a href="degree.php"><li>Grado 					</li></a>
-			
+			<a href="https://chrisarap.github.io/portfolio/"><li>Contacto 					</li></a>
 		</ul>';
 	}
 
